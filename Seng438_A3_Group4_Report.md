@@ -47,8 +47,11 @@ After analyzing the initial coverage our plan is as follows:
 
 
 -Write tests for previously untested methods to increase method coverage.
+
 -Analyze the branch coverage and write new tests that follow all possible branches.
+
 -Re analyze the test suite after writing each new test to see if it has improved coverage as expected.
+
 -Repeat until minimal acceptable coverage is obtained.
 
 
@@ -62,8 +65,11 @@ A couple Examples from Data Utilities:
 
 
 calculateColumnTotalPosArray()
+
 -Increased Branch Coverage by 7.8%, Line Coverage by 1.9% and Method Coverage by 10.0%
+
 calculateRowTotalPosArray()
+
 -Increased Branch Coverage by 7.8%, Line Coverage by 1.9% and Method Coverage by 10.0%
 
 
