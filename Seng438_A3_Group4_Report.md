@@ -131,7 +131,7 @@ calculateRowTotal(Values2D data, int Row,int[] validRows)
 
 -calculateRowTotalPosArray()
 
-**New Coverage: 73.4% Range, 87.5% Line (condition substitute), 90.0% Method (statement substitute)**
+**New Coverage: 73.4% Range, 87.5% Line, 90.0% Method**
 
 
 ### Range:
@@ -211,7 +211,11 @@ expand(Range range, double lowerMargin, double upperMargin)
 
 # 5 A detailed report of the coverage achieved of each class and method (a screen shot from the code cover in green and red color would suffice)
 
-## New Coverage:
+### Summary:
+
+New Coverage: 73.4% Range, 87.5% Line), 90.0% Method
+
+New Range Coverage:84.1% Range, 87.4% Line, 100.0% Method
 
 ## Data Utilities
 ### Branch
