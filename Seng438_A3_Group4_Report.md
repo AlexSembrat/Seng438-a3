@@ -225,9 +225,9 @@ expand(Range range, double lowerMargin, double upperMargin)
 ### Branch
 ![](Media/Range_Branch.png)
 ### Line
-![](Mdia/Range_Line.png)
+![](Media/Range_Line.png)
 ### Method
-![](Mdia/Range_Method.png)
+![](Media/Range_Method.png)
 
 
 
