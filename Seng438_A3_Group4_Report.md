@@ -77,10 +77,15 @@ A few examples from Range:
 
 
 testExpandNormal()
+
 -Increased Branch Coverage by 1.2%, Line Coverage by 6.7% and Method Coverage by 4.3%
+
 testCombineNoNull()
+
 -Increased Branch Coverage by 1.2%, Line Coverage by 2.5% and Method Coverage by 0%
+
 testConstrainLowerBound()
+
 -Increased Branch Coverage by 2.4%, Line Coverage by 1.7% and Method Coverage by 4.3%
 
 
