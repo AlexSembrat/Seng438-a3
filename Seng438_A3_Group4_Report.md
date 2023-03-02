@@ -212,7 +212,23 @@ expand(Range range, double lowerMargin, double upperMargin)
 
 # 5 A detailed report of the coverage achieved of each class and method (a screen shot from the code cover in green and red color would suffice)
 
+## New Coverage:
 
+## Data Utilities
+### Branch
+![](media/DataUtilities_Branch.png)
+### Line
+![](media/DataUtilities_Line.png)
+### Method
+![](media/DataUtilities_Method.png)
+
+## Range
+### Branch
+![](media/Range_Branch.png)
+### Line
+![](media/Range_Line.png)
+### Method
+![](media/Range_Method.png)
 
 
 
