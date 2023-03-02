@@ -93,63 +93,118 @@ testConstrainLowerBound()
 
 
 Data Utilities:
+
 clone(double[][] source)
+
 -cloneArray()
+
 -cloneArrayWithNull()
+
 -testEqualsDiffLenghts()
+
 equal(double[][] a, double[][] b)
+
 -testEqualsDiffLenghts()
+
 -testEqualsNull1()
+
 -testEqualsNull2()
+
 -testEqualsCorrect()
+
 -testEqualsWrong()
+
 -testEqualsNulls()
+
 calculateColumnTotal(Values2D data, int column)
+
 -calculateColTotalWithNull()
+
 calculateRowTotal(Values2D data, int row)
+
 -calculateRowTotalWithNull()
+
 calculateColumnTotal(Values2D data, int column,int[] validColumns)
+
 -calculateColumnTotalPosArray()
+
 calculateRowTotal(Values2D data, int Row,int[] validRows)
+
 -calculateRowTotalPosArray()
+
 New Coverage: 73.4% Range, 87.5% Line (condition substitute), 90.0% Method (statement substitute)
 
 
 Range:
+
 contains(double value)
+
 -testContainsLarger()
+
 intersects(double b0, double b1)
+
 -testIntersecstsTrue()
+
 -testIntersecstsTrue1()
+
 -testIntersectsFalse()
+
 intersects(Range range)
+
 -testIntersectsRange()
+
 constrain(double value)
+
 -testConstrainUpperBound()
+
 -testConstrainLowerBound()
+
 -testConstrainWithinBound()
+
 combine(Range range1, Range range2)
+
 -testCombineNoNull()
+
 -testCombine1Null()
+
 -testCombine2Null()
+
 combineIgnoringNaN(Range range1, Range range2)
+
 -testCombineNan1Null2Nan()
+
 -testCombineNan1Null2Valid()
+
 -testCombineNan2Null1Nan()
+
 -testCombineNan2Null1Valid()
+
 -testCombineNan1Null2Null()
+
 -testCombineNanValid()
+
 -testCombineNanBothNaN()
+
 -testCombineNan1Valid2NaN()
+
 -testCombineNan1NaN2Valid()
+
 expandToInclude(Range range, double value)
+
 -testExpandToIncludeIncludeNull()
+
 -testExpandToIncludeBelowRange()
+
 -testExpandToIncludeAboveRange()
+
 -testExpandToIncludeInRange()
+
 expand(Range range, double lowerMargin, double upperMargin)
+
 -testExpandNormal()
+
 -testExpandNegative()
+
 New Coverage:84.1% Range, 87.4% Line, 100.0% Method
 
 
