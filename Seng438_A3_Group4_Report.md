@@ -92,7 +92,7 @@ testConstrainLowerBound()
 **Here is a list of all tests added and a summary of the new coverage:**
 
 
-Data Utilities:
+**Data Utilities:**
 
 clone(double[][] source)
 
@@ -132,10 +132,10 @@ calculateRowTotal(Values2D data, int Row,int[] validRows)
 
 -calculateRowTotalPosArray()
 
-New Coverage: 73.4% Range, 87.5% Line (condition substitute), 90.0% Method (statement substitute)
+**New Coverage: 73.4% Range, 87.5% Line (condition substitute), 90.0% Method (statement substitute)**
 
 
-Range:
+**Range:**
 
 contains(double value)
 
@@ -205,7 +205,7 @@ expand(Range range, double lowerMargin, double upperMargin)
 
 -testExpandNegative()
 
-New Coverage:84.1% Range, 87.4% Line, 100.0% Method
+**New Coverage:84.1% Range, 87.4% Line, 100.0% Method**
 
 
 
