@@ -61,7 +61,7 @@ After analyzing the initial coverage our plan is as follows:
 Several of the test cases we wrote were new to our test suite, thus automatically increasing our code coverage. These tests increased the code coverage by following previously untested branches of the methods. We achieved method coverage by adding tests for methods that were previously untested. Line coverage was increased by increasing both branch and method coverage as more lines of the code were covered as more methods and branches were tested.
 
 
-A couple Examples from Data Utilities:
+**A couple Examples from Data Utilities:**
 
 
 calculateColumnTotalPosArray()
@@ -73,7 +73,7 @@ calculateRowTotalPosArray()
 -Increased Branch Coverage by 7.8%, Line Coverage by 1.9% and Method Coverage by 10.0%
 
 
-A few examples from Range:
+**A few examples from Range:**
 
 
 testExpandNormal()
@@ -89,7 +89,7 @@ testConstrainLowerBound()
 -Increased Branch Coverage by 2.4%, Line Coverage by 1.7% and Method Coverage by 4.3%
 
 
-Here is a list of all tests added and a summary of the new coverage:
+**Here is a list of all tests added and a summary of the new coverage:**
 
 
 Data Utilities:
