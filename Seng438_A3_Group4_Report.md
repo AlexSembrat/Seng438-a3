@@ -88,11 +88,10 @@ testConstrainLowerBound()
 
 -Increased Branch Coverage by 2.4%, Line Coverage by 1.7% and Method Coverage by 4.3%
 
+## Here is a list of all tests added and a summary of the new coverage:
 
-**Here is a list of all tests added and a summary of the new coverage:**
 
-
-**Data Utilities:**
+### Data Utilities:
 
 clone(double[][] source)
 
@@ -135,7 +134,7 @@ calculateRowTotal(Values2D data, int Row,int[] validRows)
 **New Coverage: 73.4% Range, 87.5% Line (condition substitute), 90.0% Method (statement substitute)**
 
 
-**Range:**
+### Range:
 
 contains(double value)
 
@@ -216,19 +215,19 @@ expand(Range range, double lowerMargin, double upperMargin)
 
 ## Data Utilities
 ### Branch
-![](media/DataUtilities_Branch.png)
+![](Media/DataUtilities_Branch.png)
 ### Line
-![](media/DataUtilities_Line.png)
+![](Media/DataUtilities_Line.png)
 ### Method
-![](media/DataUtilities_Method.png)
+![](Media/DataUtilities_Method.png)
 
 ## Range
 ### Branch
-![](media/Range_Branch.png)
+![](Media/Range_Branch.png)
 ### Line
-![](media/Range_Line.png)
+![](Mdia/Range_Line.png)
 ### Method
-![](media/Range_Method.png)
+![](Mdia/Range_Method.png)
 
 
 
