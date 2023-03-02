@@ -204,7 +204,7 @@ expand(Range range, double lowerMargin, double upperMargin)
 
 -testExpandNegative()
 
-**New Coverage:84.1% Range, 87.4% Line, 100.0% Method**
+**New Coverage: 84.1% Range, 87.4% Line, 100.0% Method**
 
 
 
@@ -213,9 +213,9 @@ expand(Range range, double lowerMargin, double upperMargin)
 
 ### Summary:
 
-New Coverage: 73.4% Range, 87.5% Line), 90.0% Method
+New DataUtilities Coverage: 73.4% Range, 87.5% Line), 90.0% Method
 
-New Range Coverage:84.1% Range, 87.4% Line, 100.0% Method
+New Range Coverage: 84.1% Range, 87.4% Line, 100.0% Method
 
 ## Data Utilities
 ### Branch
