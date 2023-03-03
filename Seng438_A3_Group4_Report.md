@@ -28,6 +28,54 @@ The purpose of this lab was to further learn about JUnit testing as well as intr
 ![](Media/calculateColumnTotalCode.png)
 ![](Media/calculateColumnTotalDFG.png)
 
+Def-use sets per statement
+Statement
+Def
+Use
+L1
+
+
+ParamChecks, data
+L2
+total
+
+
+L3
+rowCount
+data
+L4
+r
+r, rowCount
+L5
+n
+data, r, rowCount
+L6
+
+
+n
+L7
+total
+total, n
+L8
+r2
+r2, rowCount
+L9
+n
+data, r2, column
+L10
+
+
+n
+L11
+total
+total, n
+L12
+
+
+total
+
+
+
 **Total coverage is 36.67%**
 
 ### GetCentralValue
