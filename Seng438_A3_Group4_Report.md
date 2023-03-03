@@ -58,7 +58,7 @@ DU-pairs per variable
 | n           | L5, L9      | L6, L7, L10, L11 |
 | column      |             | L5, L9           |
 
-DU pairs:
+DU pairs:<br />
 total: (2, 7), (2, 11), (2, 12), (7, 7), (7, 11), (7, 12), (11, 11), (11, 12)
 rowCount: (3, 4), (3, 8)
 r: (4, 4), (4, 5)
