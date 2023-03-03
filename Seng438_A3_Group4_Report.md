@@ -21,13 +21,21 @@
 The purpose of this lab was to further learn about JUnit testing as well as introduce the topic of white-box testing and determining our own test cases to develop. We are expected to work as a team to expand our knowledge of testing as well as qualitatively measure our test suite’s adequacy. This will be completed through utilizing code coverage tools, designing test cases, understanding the consequences of measuring with these code coverage tools and understanding data-flow coverage.
 
 
-# 2 Manual data-flow coverage calculations for X and Y methods
+# 2 Manual data-flow coverage calculations for DataUtilities.calculateColumnTotal and Range.getCentralValue methods
 
+### CalculateColumnTotal
 
-DataUtilities.calculateColumnTotal and Range.getCentralValue
+![](Media/calculateColumnTotalCode.png)
+![](Media/calculateColumnTotalDFG.png)
 
+**Total coverage is 36.67%**
 
+### GetCentralValue
 
+![](Media/getLengthCode.png)
+![](Media/getLengthDFG.png)
+
+**Total coverage is 0%**
 
 # 3 A detailed description of the new testing strategy for the new unit test
 
