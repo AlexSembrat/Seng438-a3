@@ -59,38 +59,38 @@ DU-pairs per variable
 | column      |             | L5, L9           |
 
 DU pairs:<br />
-total: (2, 7), (2, 11), (2, 12), (7, 7), (7, 11), (7, 12), (11, 11), (11, 12)
-rowCount: (3, 4), (3, 8)
-r: (4, 4), (4, 5)
-r2: (8, 8), (8, 9)
-n: (5, 6), (5, 7), (9, 10), (9, 11)
-Total number of pairs: 18
+total: (2, 7), (2, 11), (2, 12), (7, 7), (7, 11), (7, 12), (11, 11), (11, 12)<br />
+rowCount: (3, 4), (3, 8)<br />
+r: (4, 4), (4, 5)<br />
+r2: (8, 8), (8, 9)<br />
+n: (5, 6), (5, 7), (9, 10), (9, 11)<br />
+Total number of pairs: 18<br />
 
-Test cases:
-calculateColumnTotalEmpty()(data.getRowCount()=0, column=1)
-Covered pairs: (2, 12), (4, 4), (8, 8)
-Number of pairs covered: 3
-DU-Pair Coverage: 3/18, 16.67%
+Test cases:<br />
+calculateColumnTotalEmpty()(data.getRowCount()=0, column=1)<br />
+Covered pairs: (2, 12), (4, 4), (8, 8)<br />
+Number of pairs covered: 3<br />
+DU-Pair Coverage: 3/18, 16.67%<br />
 
-calculateColumnTotalPos()(data.getRowCount()=4, column=1)
-Covered pairs: (2, 7), (7, 7), (7, 12), (3, 4), (3, 8), (4, 4), (4, 5), (8, 8), (5, 6), (5, 7)
-Number of pairs covered: 10
-DU-Pair Coverage: 10/18, 55.56%
+calculateColumnTotalPos()(data.getRowCount()=4, column=1)<br />
+Covered pairs: (2, 7), (7, 7), (7, 12), (3, 4), (3, 8), (4, 4), (4, 5), (8, 8), (5, 6), (5, 7)<br />
+Number of pairs covered: 10<br />
+DU-Pair Coverage: 10/18, 55.56%<br />
 
-calculateColumnTotalNeg()(data.getRowCount()=4, column=1)
-Covered pairs: (2, 7), (7, 7), (7, 12), (3, 4), (3, 8), (4, 4), (4, 5), (8, 8), (5, 6), (5, 7)
-Number of pairs covered: 10
-DU-Pair Coverage: 10/18, 55.56%
+calculateColumnTotalNeg()(data.getRowCount()=4, column=1)<br />
+Covered pairs: (2, 7), (7, 7), (7, 12), (3, 4), (3, 8), (4, 4), (4, 5), (8, 8), (5, 6), (5, 7)<br />
+Number of pairs covered: 10<br />
+DU-Pair Coverage: 10/18, 55.56%<br />
 
-calculateColumnTotalPosNeg()(data.getRowCount()=4, column=1)
-Covered pairs: (2, 7), (7, 7), (7, 12), (3, 4), (3, 8), (4, 4), (4, 5), (8, 8), (5, 6), (5, 7)
-Number of pairs covered: 10
-DU-Pair Coverage: 10/18, 55.56%
+calculateColumnTotalPosNeg()(data.getRowCount()=4, column=1)<br />
+Covered pairs: (2, 7), (7, 7), (7, 12), (3, 4), (3, 8), (4, 4), (4, 5), (8, 8), (5, 6), (5, 7)<br />
+Number of pairs covered: 10<br />
+DU-Pair Coverage: 10/18, 55.56%<br />
 
-calculateColumnTotalIllegalArg()(data = null, column = 0)
-Covered pairs: None
-Number of pairs covered: 0
-DU-Pair Coverage: 0/18, 0%
+calculateColumnTotalIllegalArg()(data = null, column = 0)<br />
+Covered pairs: None<br />
+Number of pairs covered: 0<br />
+DU-Pair Coverage: 0/18, 0%<br />
 
 **Total coverage is 36.67%**
 
@@ -116,20 +116,20 @@ DU-pairs per variable
 | lower    |          | L1, L2, L3 |
 | upper    |          | L1, L2, L3 |
 
-DU pairs:
-Msg: (2, 3)
-Total number of pairs: 1
+DU pairs:<br />
+Msg: (2, 3)<br />
+Total number of pairs: 1<br />
 
-Test Cases:
-testValidLength()
-Covered pairs: None
-Number of pairs covered: 0
-DU-Pair Coverage: 0/1, 0%
+Test Cases:<br />
+testValidLength()<br />
+Covered pairs: None<br />
+Number of pairs covered: 0<br />
+DU-Pair Coverage: 0/1, 0%<br />
 
-testZeroLength()
-Covered pairs: None
-Number of pairs covered: 0
-DU-Pair Coverage: 0/1, 0%
+testZeroLength()<br />
+Covered pairs: None<br />
+Number of pairs covered: 0<br />
+DU-Pair Coverage: 0/1, 0%<br />
 
 **Total coverage is 0%**
 
