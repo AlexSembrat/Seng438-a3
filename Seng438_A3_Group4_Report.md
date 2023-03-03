@@ -29,52 +29,68 @@ The purpose of this lab was to further learn about JUnit testing as well as intr
 ![](Media/calculateColumnTotalDFG.png)
 
 Def-use sets per statement
-Statement
-Def
-Use
-L1
 
+| Statement | Def      | Use               |
+| --------- | -------- | ----------------- |
+| L1        |          | ParamChecks, data |
+| L2        | total    |                   |
+| L3        | rowCount | data              |
+| L4        | r        | r, rowCount       |
+| L5        | n        | data, r, rowCount |
+| L6        |          | n                 |
+| L7        | total    | total, n          |
+| L8        | r2       | r2, rowCount      |
+| L9        | n        | data, r2, column  |
+| L10       |          | n                 |
+| L11       | total    | total, n          |
+| L12       |          | total             |
 
-ParamChecks, data
-L2
-total
+DU-pairs per variable
 
+| Variable    | Def line    | Use line         |
+| ----------- | ----------- | ---------------- |
+| ParamChecks |             | L1               |
+| data        |             | L3, L5, L9       |
+| total       | L2, L7, L11 | L7, L11, L12     |
+| rowCount    | L3,         | L4, L8           |
+| r           | L4          | L4, L5           |
+| r2          | L8          | L8, L9           |
+| n           | L5, L9      | L6, L7, L10, L11 |
+| column      |             | L5, L9           |
 
-L3
-rowCount
-data
-L4
-r
-r, rowCount
-L5
-n
-data, r, rowCount
-L6
+DU pairs:
+total: (2, 7), (2, 11), (2, 12), (7, 7), (7, 11), (7, 12), (11, 11), (11, 12)
+rowCount: (3, 4), (3, 8)
+r: (4, 4), (4, 5)
+r2: (8, 8), (8, 9)
+n: (5, 6), (5, 7), (9, 10), (9, 11)
+Total number of pairs: 18
 
+Test cases:
+calculateColumnTotalEmpty()(data.getRowCount()=0, column=1)
+Covered pairs: (2, 12), (4, 4), (8, 8)
+Number of pairs covered: 3
+DU-Pair Coverage: 3/18, 16.67%
 
-n
-L7
-total
-total, n
-L8
-r2
-r2, rowCount
-L9
-n
-data, r2, column
-L10
+calculateColumnTotalPos()(data.getRowCount()=4, column=1)
+Covered pairs: (2, 7), (7, 7), (7, 12), (3, 4), (3, 8), (4, 4), (4, 5), (8, 8), (5, 6), (5, 7)
+Number of pairs covered: 10
+DU-Pair Coverage: 10/18, 55.56%
 
+calculateColumnTotalNeg()(data.getRowCount()=4, column=1)
+Covered pairs: (2, 7), (7, 7), (7, 12), (3, 4), (3, 8), (4, 4), (4, 5), (8, 8), (5, 6), (5, 7)
+Number of pairs covered: 10
+DU-Pair Coverage: 10/18, 55.56%
 
-n
-L11
-total
-total, n
-L12
+calculateColumnTotalPosNeg()(data.getRowCount()=4, column=1)
+Covered pairs: (2, 7), (7, 7), (7, 12), (3, 4), (3, 8), (4, 4), (4, 5), (8, 8), (5, 6), (5, 7)
+Number of pairs covered: 10
+DU-Pair Coverage: 10/18, 55.56%
 
-
-total
-
-
+calculateColumnTotalIllegalArg()(data = null, column = 0)
+Covered pairs: None
+Number of pairs covered: 0
+DU-Pair Coverage: 0/18, 0%
 
 **Total coverage is 36.67%**
 
@@ -82,6 +98,38 @@ total
 
 ![](Media/getLengthCode.png)
 ![](Media/getLengthDFG.png)
+
+Def-use sets per statement
+
+| Statement | Def | Use          |
+| --------- | --- | ------------ |
+| L1        |     | lower, upper |
+| L2        | msg | lower, upper |
+| L3        |     | msg          |
+| L4        |     | lower, upper |
+
+DU-pairs per variable
+
+| Variable | Def line | Use line   |
+| -------- | -------- | ---------- |
+| msg      | L2       | L3         |
+| lower    |          | L1, L2, L3 |
+| upper    |          | L1, L2, L3 |
+
+DU pairs:
+Msg: (2, 3)
+Total number of pairs: 1
+
+Test Cases:
+testValidLength()
+Covered pairs: None
+Number of pairs covered: 0
+DU-Pair Coverage: 0/1, 0%
+
+testZeroLength()
+Covered pairs: None
+Number of pairs covered: 0
+DU-Pair Coverage: 0/1, 0%
 
 **Total coverage is 0%**
 
